@@ -1,27 +1,28 @@
 version: '3'
 
 services:
-#app server
-   Laravel-docker-app:
+  # app server
+  laravel-docker-app:
     container_name: e-ecom-laravel-api
     build: .
-    valumes:
-    " ./src:var/www/html/"
-    port: 9000:80
+    volumes:
+      - "./src:/var/www/html/"
+    ports:
+      - "9000:80"
 
-# DB server
-mysql_db:
- image: mysql:5.7
- environment:
-   MYSQL_ROOT_PASSWORD: root
-   MYSQL_DATABASE: laravel_api
- port: 3309:3306
+  # DB server
+  mysql_db:
+    image: mysql:5.7
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: laravel_api
+    ports:
+      - "3309:3306"
 
-
- #PHPMYADMIN SERVER CONFIG
- phpmyadmin:
-   image: phpmyadmin:latest
-   ports:
-     - 9002:80
-  enviroment:
-    - PMA_ARBITRARY=1
+  # PHPMyAdmin server config
+  phpmyadmin:
+    image: phpmyadmin:latest
+    ports:
+      - "9002:80"
+    environment:
+      - PMA_ARBITRARY=1
