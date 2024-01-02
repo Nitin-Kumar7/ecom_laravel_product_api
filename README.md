@@ -78,17 +78,7 @@ Edit the following lines in the bottom of the file "`.env`":
 
   
 
-### 7. Start the Development Server
  
-php artisan serve
-```
-
-Your Laravel application should now be accessible at [http://localhost:8000](http://localhost:8000).
-
- 
-
-
-
  
  
  
