@@ -96,7 +96,7 @@ Your Laravel application should now be accessible at [http://localhost:8000](htt
 
 You can access the non-compiled code at the URL:
 
-    http://localhost:8080/api/product/1
+    http://localhost:8080/api/products/1
  
  
 ### CRUD + List
@@ -119,7 +119,7 @@ The CRUD + List operations below act on this table.
 
 If you want to create a record the request can be written in URL format as: 
 
-   Get api/product/add
+   Get api/products/add
 
 You have to send a body containing:
 
