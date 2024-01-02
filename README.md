@@ -266,14 +266,10 @@ It will return:
 }
 
  
-
-   
- 
- 
  
 ### Docker compose
 
-This repository also contains a `docker-compose.yml` file that you can install/build/run using:
+This repository also contains a `docker-compose.yml` file that you can install/build/run using
 
     apt install docker-compose
     docker-compose build
