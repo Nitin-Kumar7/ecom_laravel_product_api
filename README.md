@@ -1,21 +1,7 @@
 # Laravel E-commerce Product API (Nitin Kumar)
 
 This project consists of a rebust API built using Laravel, designed to manage and provide functionalities for e-commerce 
-
-## Features
-
-- **Full-Featured REST API:** Instantly gain access to a comprehensive REST API  
-
-- **Laravel and PHP Compatibility:** Developed using Laravel 9.19.0 and PHP 8.0, ensuring the latest features and enhancements are leveraged.
-
-- **Requirements:**
-  
-- PHP 8.0 or higher
-- MySQL 5.7 / MariaDB 10.0 or higher (spatial features supported in MySQL)
-- [Composer](https://getcomposer.org/) (Install this dependency management tool for PHP)
-- [XAMPP](https://www.apachefriends.org/index.html) or any other web server stack
-- Laravel 9.19.0 (A PHP web application framework, install using Composer)
-
+ 
  
 ## Prerequisites
 
