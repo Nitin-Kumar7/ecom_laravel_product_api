@@ -279,7 +279,7 @@ This repository also contains a `docker-compose.yml` file that you can install/b
     docker-compose build
     docker-compose up
 
-This will setup a database (MySQL) and a webserver (Apache) and runs the application using the blog example data used in the tests.
+This will setup a database (MySQL) and a webserver (Apache) and runs the application
 
 Test the script (running in the container) by opening the following URL:
 
