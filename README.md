@@ -1,6 +1,6 @@
 # Laravel E-commerce Product API (Nitin Kumar)
 
-This project consists of a rebust API built using Laravel, designed to manage and provide functionalities for e-commerce product data. It serves as a single-file PHP script that seamlessly adds a REST API to your MySQL/MariaDB, PostgreSQL, SQL Server, or SQLite database.
+This project consists of a rebust API built using Laravel, designed to manage and provide functionalities for e-commerce 
 
 ## Features
 
