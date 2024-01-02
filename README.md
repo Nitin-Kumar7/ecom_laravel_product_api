@@ -44,20 +44,8 @@ Once you have these prerequisites in place, you'll be ready to clone the reposit
 
 2. Navigate to the project directory:
 
-    
-    cd ecom_laravel_product_api
-    ```
+  
 
-3. Install dependencies using Composer:
-
-    
-    composer install
-    ```
-
-For more details on Laravel, please visit [Laravel Documentation](https://laravel.com/docs/9.x).
-
-
- 
  **Install Dependencies:**
    ```bash
    composer install
@@ -66,6 +54,15 @@ For more details on Laravel, please visit [Laravel Documentation](https://larave
 1. **Configure the Environment:**
    - Create a copy of the `.env.example` file and save it as `.env`.
    - Update the `.env` file with your database connection details.
+
+  
+Edit the following lines in the bottom of the file "`.env`":
+
+    $config = new Config([
+        'username' => 'root',
+        'password' => '',
+        'database' => 'products',
+]);
 
 2. **Generate Application Key:**
    ```bash
@@ -90,112 +87,21 @@ For more details on Laravel, please visit [Laravel Documentation](https://larave
 - **Database Seeder:**
   You can seed the database with sample data using the following command:
   ```bash
-  php artisan db:seed --product_
+ php artisan db:seed --class=ProductSeeder
   ```
 
- 
- ## Setting Up the Project
-
-Follow these steps to set up the project after cloning the repository:
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/Nitin-Kumar7/ecom_laravel_product_api.git
-
- Certainly! Here's a guide for users on setting up the project after cloning the repository:
-
-```markdown
-## Setting Up the Project
-
-Follow these steps to set up the project after cloning the repository:
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/Nitin-Kumar7/ecom_laravel_product_api.git
-```
-
-### 2. Install Dependencies
-
-Navigate to the project directory and install the required dependencies using Composer:
-
-```bash
-cd ecom_laravel_product_api
-composer install
-```
-
-### 3. Create .env File
-
-Duplicate the `.env.example` file and rename it to `.env`. Update the database connection details in the `.env` file according to your setup.
-
-```bash
-cp .env.example .env
-```
-
-### 4. Generate Application Key
-
-Generate the application key with Artisan:
-
-```bash
-php artisan key:generate
-```
-
-### 5. Run Migrations
-
-Run database migrations to create the necessary tables:
-
-
-php artisan migrate
-```
-
-### 6. Run Seeders (Optional)
-
-If there are seeders for the project, you can run them to populate the database with sample data:
-
- 
-php artisan db:seed --class=ProductSeeder
- 
+  
 
 ### 7. Start the Development Server
-
-Start the Laravel development server:
-
-
+ 
 php artisan serve
 ```
 
 Your Laravel application should now be accessible at [http://localhost:8000](http://localhost:8000).
 
-### 8. Additional Configuration (if needed)
+ 
 
-Depending on your specific project requirements, you might need to perform additional configuration steps. Refer to the project documentation for any specific instructions.
 
-Now you're all set! You have successfully set up the Laravel project.
-```
-
-Make sure to tailor the instructions based on your project's specific requirements and configurations.
-
-## Notes
-
-- Make sure to keep sensitive information secure, especially in the `.env` file.
-- Customize the configuration based on your project requirements.
-
-Feel free to explore the Laravel documentation for more in-depth information: [Laravel Documentation](https://laravel.com/docs).
-
-Happy coding!
-```
-
-Replace `your-username` and `your-laravel-project` with your GitHub username and the name of your Laravel project repository, respectively. This README provides basic instructions for setting up a Laravel project and includes additional configuration options.
-## Configuration
-
-Edit the following lines in the bottom of the file "`api.php`":
-
-    $config = new Config([
-        'username' => 'root',
-        'password' => '',
-        'database' => 'products',
-    ]);
 
  
  
