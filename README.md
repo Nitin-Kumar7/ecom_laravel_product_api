@@ -101,7 +101,7 @@ You can access the non-compiled code at the URL:
  
 ### CRUD + List
 
-The example posts table has only a a few fields:
+The example product table has only a a few fields:
 
     id     
     name  
